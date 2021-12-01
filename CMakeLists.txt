@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(include)
 
 add_library(${PROJECT_NAME}_lib
-        DailyTaskTemplate/daily_task_XX.cpp
+        src/daily_task_01.cpp
         )
 
 add_executable(${PROJECT_NAME}_main

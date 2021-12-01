@@ -1,4 +1,4 @@
-#include "daily_task_XX.h"
+#include <DailyTask/daily_task_XX.h>
 
 void DailyTaskXX::calculate()
 {
