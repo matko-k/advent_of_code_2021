@@ -2,5 +2,5 @@
 
 void DailyTaskXX::calculate()
 {
-    std::ifstream file("/home/incubed/advent_of_code_2021/sources/daily_task_XX_input.txt");
+    std::ifstream file("../daily_inputs/daily_task_XX_input.txt");
 }

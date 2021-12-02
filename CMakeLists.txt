@@ -7,6 +7,7 @@ include_directories(include)
 
 add_library(${PROJECT_NAME}_lib
         src/daily_task_01.cpp
+        src/daily_task_02.cpp
         )
 
 add_executable(${PROJECT_NAME}_main
