@@ -20,7 +20,8 @@ public:
         task_description_ = task_description;
     }
 
-    virtual void calculate() = 0;
+    virtual void part1() = 0;
+    virtual void part2() = 0;
 
 private:
 

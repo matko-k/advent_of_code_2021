@@ -7,7 +7,8 @@ class DailyTaskXX : DailyTask {
 public:
   DailyTaskXX(std::string task_name) : DailyTask(task_name){};
 
-  virtual void calculate();
+  virtual void part1();
+  virtual void part2();
 };
 
 #endif // AOC2021_DAILY_TASK_XX_H

@@ -5,13 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
-add_library(${PROJECT_NAME}_lib
-        src/daily_task_01.cpp
-        src/daily_task_02.cpp
-        )
-
-add_executable(${PROJECT_NAME}_main
-        main.cpp
-        )
-
-target_link_libraries(${PROJECT_NAME}_main ${PROJECT_NAME}_lib)
+add_executable(${PROJECT_NAME}_dt01 src/daily_task_01.cpp)
+add_executable(${PROJECT_NAME}_dt02 src/daily_task_02.cpp)
