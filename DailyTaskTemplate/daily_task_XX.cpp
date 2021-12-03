@@ -2,8 +2,8 @@
 
 void DailyTaskXX::part1()
 {
-    std::ifstream file;
-    file.open("../daily_inputs/daily_task_XX_input.txt");
+  std::ifstream file;
+  file.open("../daily_inputs/daily_task_XX_input.txt");
 }
 
 void DailyTaskXX::part2()
