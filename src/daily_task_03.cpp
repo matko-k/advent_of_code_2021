@@ -135,7 +135,7 @@ void DailyTask03::part2()
 
 int main() {
 
-  DailyTask03 dt03("Day 03: ");
+  DailyTask03 dt03("Day 03: Binary Diagnostic");
   dt03.part1();
   dt03.part2();
 
